@@ -1,0 +1,59 @@
+.common{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color:grey;
+    color: black;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+nav a:hover{
+    background-color: #ccc;
+}
+
+.centeredList{
+    padding-left: 0;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
+
+.body{
+    background-color: whitesmoke;
+}
+
+.footer{
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    line-height: 25px;
+    z-index: 9999;
+}
+
+.tableauPlaceholder{
+    margin-left: auto;
+    margin-right: auto;
+}
